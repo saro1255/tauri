@@ -1,0 +1,64 @@
+{
+  "build": {
+    "beforeBuildCommand": "",
+    "beforeDevCommand": "",
+    "devPath": "../ui",
+    "distDir": "../ui",
+    "withGlobalTauri" : true
+  },
+  "package": {
+    "productName": "carture",
+    "version": "2.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "carture.com",
+      "longDescription": "",
+      "resources": [],
+      "shortDescription": "",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": "11E47B049ECAF92AEFA40ECC21BA29B2AF1FACBB",
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "http://timestamp.comodoca.com"
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://dev.eduniv.in/data/update.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDk3NTQwMTg3RENERjk4QkEKUldTNm1OL2Nod0ZVbDVwM2NUS1NucTVMZ2l4RDlpSzFTL25NdURONlBCeXpObm5RNGJxWlpVVHUK"
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 600,
+        "resizable": true,
+        "title": "carture",
+        "width": 800
+      }
+    ]
+  }
+}
